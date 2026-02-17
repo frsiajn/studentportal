@@ -14,6 +14,11 @@
             </div>
             
             <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" class="form-control" id="email" name="email" value="{{ $student->email }}" required>
+            </div>
+            
+            <div class="form-group">
                 <label for="course">Course</label>
                 <input type="text" class="form-control" id="course" name="course" value="{{ $student->course }}" required>
             </div>

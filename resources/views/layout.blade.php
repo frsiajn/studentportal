@@ -214,7 +214,7 @@
 <body>
     <div class="header">
         <div class="container">
-            <h1>🎓 My Student Portal</h1>
+            <h1>My Student Portal</h1>
             <p style="font-size: 14px; opacity: 0.9;">A simple app to manage students</p>
         </div>
     </div>
@@ -238,10 +238,5 @@
         </main>
     </div>
 
-    <div class="footer">
-        <div class="container">
-            <p>&copy; {{ date('Y') }} My Student Portal. Made with Laravel.</p>
-        </div>
-    </div>
 </body>
 </html>
