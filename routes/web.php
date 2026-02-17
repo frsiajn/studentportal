@@ -26,5 +26,5 @@ Route::get('/students/{id}', function ($id) {
 
 // Edit student page
 Route::get('/students/{id}/edit', function ($id) { 
-    return view('students.edit'); // edit.blade.php 
+    return view('students.edit');
 });
